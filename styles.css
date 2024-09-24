@@ -1,0 +1,26 @@
+/*COLORS*/
+:root{
+
+	--white:#FFFFFF;
+	--black:#000000;
+
+	/*Custom*/
+	--bg:hsl(212, 45%, 89%);
+    --blue:hsl(218, 44%, 22%);
+    --gray:hsl(216, 15%, 48%);
+
+}
+
+body{ background-color: var(--bg); margin: 0;font-family: "Outfit", sans-serif;}
+
+.content_box{height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center;}
+
+    .content_box .qr_box{height: 500px; width: 320px; background-color: var(--white); border-radius: 20px; padding: 20px;}
+
+        .content_box .qr_box .qr_image{width: 100%; height: 60%; margin: 0;border-radius: 10px; overflow: hidden;}
+
+            .content_box .qr_box .qr_image img{width: 100%; height: 100%;}
+        
+        .content_box .qr_box .qr_title{font-size: 1.5rem; font-weight: 700; text-align: center; color: var(--blue);padding: 0 10px;}
+
+        .content_box .qr_box .qr_description{font-size: 1rem;font-weight: 400;text-align: center;color: var(--gray);padding: 0 10px;}
